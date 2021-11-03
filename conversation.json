@@ -1,0 +1,54 @@
+{
+"intents":[
+    {
+        "tags":"greeting",
+        "patterns":["hello", "hey", "hi", "good day ", "Greeting" , "what's app", "How it's Going"],
+        "responses":["Hey!", "Hello!", "What can i do for you?","nice to meet you"]
+    },
+    {
+        "tags":"askName",
+        "patterns":[" what is your name?"],
+        "responses":["My name is "]
+    },
+    {
+        "tags":"AboutWhereYouLive",
+        "patterns":[ "where are you from?"  ],
+        "responses":[" I am a computer program"]
+    },
+    {
+        "tags":"AboutYourself",
+        "patterns":["what are you?" , " who made you?"],
+        "responses":["i am a computer program made by python  , created  by MAVEN"]
+    },
+    {
+        "tags":"askHow",
+        "patterns":["how are you?"],
+        "responses":["I am fine" , " I am doing great"]
+    },
+    {
+        "tags":"askProblemInyou",
+        "patterns":["how are you feeling" , " are you ok?" , "do you have any problem" , " is everything allright?"],
+        "responses":["I'm fine" , "All ok , don't woory" , " Everything works fine"]
+    },
+    {
+        "tags":"askTime",
+        "patterns":[
+            "What is the time now?",
+            "please tell me the time rifht now"
+        ],
+        "responses":[
+            "24/7"
+        ]
+    },
+    {
+        "tag":"goodbye",
+        "patterns":[
+            "bye" , "Goodbye"
+        ],
+        "responses":[
+            "see you next day"
+        ]
+    }
+    
+]
+}
